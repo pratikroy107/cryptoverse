@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/https;//pratikroy107.github.io/cryptoverse/static/css/main.142cce7e.css",
+    "main.js": "/https;//pratikroy107.github.io/cryptoverse/static/js/main.a18d09f2.js",
+    "static/media/cryptologo.png": "/https;//pratikroy107.github.io/cryptoverse/static/media/cryptologo.33121ce353acfc9be814.png",
+    "index.html": "/https;//pratikroy107.github.io/cryptoverse/index.html",
+    "main.142cce7e.css.map": "/https;//pratikroy107.github.io/cryptoverse/static/css/main.142cce7e.css.map",
+    "main.a18d09f2.js.map": "/https;//pratikroy107.github.io/cryptoverse/static/js/main.a18d09f2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.142cce7e.css",
+    "static/js/main.a18d09f2.js"
+  ]
+}
