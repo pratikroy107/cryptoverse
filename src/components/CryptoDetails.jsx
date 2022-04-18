@@ -55,7 +55,7 @@ const CryptoDetails = () => {
             >
                 {time.map((date) => <Option key={date}>{date}</Option>)}
             </Select>
-
+            {/*line chart*/}
             <Col className='stats-container'>
                 <Col className='coin-value-statistics'>
                     <Col className='coin-value=statistics-heading'>
@@ -103,6 +103,22 @@ const CryptoDetails = () => {
                         {HTMLReactParser(cryptoDetails.description)}
                     </Title>
                 </Row>
+                <Col className='coin-links'>
+                    <Title level={3} className='coin-details-heaing'>
+                        {cryptoDetails.name} Links
+                    </Title>
+                    {cryptoDetails.links.map((link) => (
+                        <Row className='coin-link' key={link.name}>
+                            <Title level={5} className='link-name'>
+                                {link.type}
+                            </Title>
+                            <a href={link.url} target='_blank'>
+                                {link.name}
+                            </a>
+                        </Row>
+                    ))}
+
+                </Col>
             </Col>
         </Col>
     )
