@@ -14,7 +14,7 @@ const demoImage = 'https://images.unsplash.com/photo-1622630998477-20aa696ecb05?
 const News = ({ simplified }) => {
     const [newscategory, setNewscategory] = useState('Cryptocurrency');
     //console.log("simpli = ", simplified);
-    const { data: cryptoNews } = useGetCryptoNewsQuery({ newsCategory: 'cryptocurrency', count: simplified ? 6 : 20 });
+    const { data: cryptoNews } = useGetCryptoNewsQuery({ newsCategory: 'cryptocurrency', count: simplified ? 9 : 50 });
     //console.log(cryptoNews);
 
     const { data } = useGetCryptosQuery(100);
